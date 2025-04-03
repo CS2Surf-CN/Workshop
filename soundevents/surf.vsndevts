@@ -38,4 +38,20 @@
 			"sounds/buttons/blip1.vsnd",
 		]
 	}
+	surf.finish_main = 
+	{
+		base = "surf.amb.base"
+		vsnd_files_track_01 = 
+		[
+			"sounds/buttons/bell1.vsnd",
+		]
+	}
+	surf.finish_bonus = 
+	{
+		base = "surf.amb.base"
+		vsnd_files_track_01 = 
+		[
+			"sounds/buttons/blip2.vsnd",
+		]
+	}
 }
