@@ -1,0 +1,101 @@
+"RadioPanel.txt"
+{
+    "Groups"
+    {
+        "RadioMenu"
+        {
+            "hotkey"    "0"
+            "title"     "辅助菜单"
+            "timeout"   "999999"
+
+            "Commands"
+            {
+                "menuselect1"
+                {
+                    "hotkey"    "1"
+                    "label"     "菜单 1"
+                    "cmd"       "sm_menu_select 1; radio"
+                }
+
+                "menuselect2"
+                {
+                    "hotkey"    "2"
+                    "label"     "菜单 2"
+                    "cmd"       "sm_menu_select 2; radio"
+                }
+
+                "menuselect3"
+                {
+                    "hotkey"    "3"
+                    "label"     "菜单 3"
+                    "cmd"       "sm_menu_select 3; radio"
+                }
+
+                "menuselect4"
+                {
+                    "hotkey"    "4"
+                    "label"     "菜单 4"
+                    "cmd"       "sm_menu_select 4; radio"
+                }
+
+                "menuselect5"
+                {
+                    "hotkey"    "5"
+                    "label"     "菜单 5"
+                    "cmd"       "sm_menu_select 5; radio"
+                }
+
+                "menuselect6"
+                {
+                    "hotkey"    "6"
+                    "label"     "菜单 6"
+                    "cmd"       "sm_menu_select 6; radio"
+                }
+
+                "menuselect7"
+                {
+                    "hotkey"    "7"
+                    "label"     "上一页"
+                    "cmd"       "sm_menu_select 7; radio"
+                }
+
+                "menuselect8"
+                {
+                    "hotkey"    "8"
+                    "label"     "下一页"
+                    "cmd"       "sm_menu_select 8; radio"
+                }
+
+                "menuselect9"
+                {
+                    "hotkey"    "9"
+                    "label"     "关闭菜单"
+                    "cmd"       "sm_menu_select 9; radio"
+                }
+            }
+        }
+        
+        "group"
+        {
+            "hotkey"    "2"
+            "title"     "Group"
+            "timeout"   "999999"
+            
+            "Commands"
+            {
+            }
+        }
+        
+        "report"
+        {
+            "hotkey"    "3"
+            "title"     "Report"
+            "timeout"   "999999"
+            
+            "Commands"
+            {
+
+            }
+        }
+    }
+}
