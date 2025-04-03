@@ -38,6 +38,14 @@
 			"sounds/buttons/blip1.vsnd",
 		]
 	}
+	surf.timer_start = 
+	{
+		base = "surf.amb.base"
+		vsnd_files_track_01 = 
+		[
+			"sounds/cs2surf/timer_start.vsnd",
+		]
+	}
 	surf.finish_main = 
 	{
 		base = "surf.amb.base"
