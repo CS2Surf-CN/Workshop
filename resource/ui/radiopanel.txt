@@ -69,8 +69,8 @@
                 "menuselect9"
                 {
                     "hotkey"    "9"
-                    "label"     "关闭菜单"
-                    "cmd"       "sm_menu_select 9; radio"
+                    "label"     "打开存点菜单"
+                    "cmd"       "radio1"
                 }
             }
         }
@@ -78,18 +78,59 @@
         "group"
         {
             "hotkey"    "2"
-            "title"     "Group"
+            "title"     "存点菜单"
             "timeout"   "999999"
             
             "Commands"
             {
+                "save"
+                {
+                    "hotkey"    "1"
+                    "label"     "存点"
+                    "cmd"       "sm_save; radio1"
+                }
+
+                "tele"
+                {
+                    "hotkey"    "2"
+                    "label"     "读点"
+                    "cmd"       "sm_tele; radio1"
+                }
+
+                "prev"
+                {
+                    "hotkey"    "3"
+                    "label"     "上一个"
+                    "cmd"       "sm_prev; radio1"
+                }
+
+                "next"
+                {
+                    "hotkey"    "4"
+                    "label"     "下一个"
+                    "cmd"       "sm_next; radio1"
+                }
+
+                "del"
+                {
+                    "hotkey"    "5"
+                    "label"     "删除当前存点"
+                    "cmd"       "sm_delcp; radio1"
+                }
+
+                "reset"
+                {
+                    "hotkey"    "6"
+                    "label"     "重置"
+                    "cmd"       "sm_resetcp; radio1"
+                }
             }
         }
         
         "report"
         {
             "hotkey"    "3"
-            "title"     "Report"
+            "title"     "备用菜单"
             "timeout"   "999999"
             
             "Commands"
